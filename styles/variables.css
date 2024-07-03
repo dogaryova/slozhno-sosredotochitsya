@@ -13,3 +13,38 @@
   --title-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --border-corner:rgba(255, 0, 112, 1);
 }
+
+@media (prefers-color-scheme: dark) {
+  .page{
+    background-image: url(/images/cover-image-dark.png);
+    --text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --title-h2-color: #ff0070;
+    --subtitle-text-color: #000028;
+    --shadow-color: #ff0070;
+    --accent-color: #ff0070;
+    --bg-color: #000028;
+    --title-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+    --border-corner:rgba(255, 0, 112, 1);
+    --paragr-color: rgba(0, 0, 40, 1);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    background-image: url(/images/cover-image-light.png);
+    --text-color:#353430;
+    --title-color:rgba(255, 194, 230, 1);
+    --title-h2-color:rgba(53, 52, 48, 1);
+    --shadow-color:rgba(255, 141, 203, 1);
+    --bg-color:rgba(53, 52, 48, 1);
+    --border-corner:rgba(53, 52, 48, 1);
+    --accent-color:rgba(255, 141, 203, 1);
+    --paragr-color: rgba(53, 52, 48, 1);
+  }
+
+  .decorated-zone-rec {
+    display: none;
+  }
+}
+
