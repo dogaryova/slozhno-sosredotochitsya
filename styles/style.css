@@ -106,6 +106,10 @@
   padding-block-end: 4px;
   text-transform: lowercase;
   font-family:'IBM Plex mono', monospace;
+  background-color: transparent;
+  width: 70px;
+  height: 26px;
+  cursor: pointer;
 }
 
 .tit {
@@ -168,6 +172,7 @@
 
 .title_b {
   width: 99%;
+  padding-top: 2px;
 }
 
 .letter {
@@ -345,7 +350,7 @@
   line-height: 23px;
   padding-bottom: 10px;
   color: var(--text-color);
-  padding-top:10px;   
+  padding-top:10px;
 }
 
 @media (max-width : 1023px) {
@@ -355,7 +360,18 @@
     gap:12px;
     padding-right: 10px;
   }
+
+  .up_section {
+    padding-top: 63px; 
+    padding-bottom: 68px; 
+  }
   
+  .main_p {
+  max-width: 472px;
+  padding-top: 8px;
+
+  }
+
   .header__theme-menu {
     justify-self: end;
     align-self: center;
@@ -365,7 +381,7 @@
     width: 97.1%;
   }
 
-  .last_p{
+  .last_p {
    padding-top: 11px;
   }
 
@@ -377,26 +393,23 @@
     padding-top: 23px;
   }
 
-  .last_section{
+  .last_section {
     gap: 22px;
   }
 
-  .header__title{
+  .header__title {
     font-size:  clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .footer_title {
+    margin-left: -7px;
+    padding-bottom: 10px;
     font-size:  clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
  .pic_title_b {
     max-width: 236px;
     padding-top: 5px;
-  }
- 
-  .footer_title {
-    margin-left: -7px;
-    padding-bottom: 10px;
   }
 
   .decorated-zone::before {
@@ -446,14 +459,14 @@
   .up_section {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 32px;
+    padding-top: 35px;
     padding-left: 0px;
     max-width: 355px;
     padding-bottom: 35px;
   }
 
   .main_p {
-    padding-top: 13px;
+    padding-top: 10px;
   }
 
   .last_section {
@@ -513,7 +526,9 @@
   }
 
   .header__parahraph {
-    width:98%;
+    width:98.6%;
+    margin-right: 3px;
+    margin-top: 7px;
   }
 
   .footer {
@@ -529,18 +544,10 @@
     margin-bottom: 32px;
   }
 
-  .decorated-zone::after {
-    bottom: 34px;
-  }
-  
-  .decorated-zone::before {
-    top: -13px;
-  }
-}
 
 @media (prefers-color-scheme: light) {
   .decorated-zone-rec {
     display: none;
   }
 }
-  
+}
