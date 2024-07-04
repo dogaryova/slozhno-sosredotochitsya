@@ -3,7 +3,7 @@
 .header {
   display:grid;
   position: relative;
-  margin: 0 auto;
+  margin: 0 10px;
   block-size: 100vh;
   grid-template-rows: 1fr min-content 1fr;
   gap: 32px;
@@ -56,8 +56,8 @@
   justify-self: flex-end;
   align-self: center;
   height: min-content;
-  margin-right: 8px;
-  margin-bottom: -4px;
+  margin-right: 11px;
+  margin-bottom: -7px;
   color: var(--paragr-color);
 }
 
@@ -145,7 +145,6 @@
   font-family: var(--main-font,monospace);
   background-color: var(--bg-color, #000028);
   position: relative;
-  margin: 0 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -157,6 +156,7 @@
   grid-template-columns: 32% 1fr;
   gap:18px;
   padding: 58px 0px 0 11px;
+  margin: 0 10px;
   padding-bottom: 72px;
 }
 
@@ -199,9 +199,10 @@
   grid-template-columns: 32% 1fr;
   padding-bottom: 30px ;
   gap:20px;
-  padding-top: 29px;
+  padding-top: 25px;
   padding-left: 11px;
   padding-right: 7px;
+  margin: 0 10px;
 }
 
 .last_p {
@@ -219,11 +220,14 @@
 }
 
 .footer {
+  margin-right: 10px;
+  margin-left: 10px;
   position: relative;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .footer_title {
@@ -334,11 +338,12 @@
 
 .section_letter {
   padding-bottom: 6px;
+  margin: 0 10px;
 }
 
 .section__image {
-  padding-bottom: 63px;
-  margin-top: 28px;
+  padding-bottom: 36px;
+  margin: 28px 10px;
 }
 
 .main_p {
