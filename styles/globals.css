@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  min-inline-size: 375px;
-}
-
 h1,
 h2,
 h3,

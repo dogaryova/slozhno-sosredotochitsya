@@ -98,7 +98,6 @@
   color: var(--title-h2-color);
   border: none;
   text-decoration: transparent;
-  background-color: #00000000;
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
@@ -362,8 +361,8 @@
   }
 
   .up_section {
-    padding-top: 63px; 
-    padding-bottom: 68px; 
+    padding-top: 63px;
+    padding-bottom: 68px;
   }
   
   .main_p {
@@ -470,6 +469,8 @@
   }
 
   .last_section {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 0;
     padding-top: 0px;
     padding-bottom: 2px;
@@ -505,11 +506,6 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-  }
-
-  .last_section {
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .gallery {
