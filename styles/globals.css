@@ -2,13 +2,13 @@
 
 *,
 *::before,
-*::after {
-  box-sizing: border-box;
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
 
 body {
-  margin: 0;
-  padding: 0;
   min-inline-size: 375px;
 }
 
