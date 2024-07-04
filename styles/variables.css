@@ -15,7 +15,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .page{
+  .page {
     background-image: url(/images/cover-image-dark.png);
     --text-color: #f1b2ce;
     --title-color: #db00ff;
@@ -43,7 +43,7 @@
     --paragr-color: rgba(53, 52, 48, 1);
   }
 
-  .decorated-zone-rec {
+  .decorated-zone-rec .theme_light {
     display: none;
   }
 }
