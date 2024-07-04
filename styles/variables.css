@@ -43,7 +43,7 @@
     --paragr-color: rgba(53, 52, 48, 1);
   }
 
-  .decorated-zone-rec {
+  .decorated-zone-rec .theme_light {
     display: none;
   }
 }
