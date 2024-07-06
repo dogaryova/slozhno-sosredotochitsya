@@ -115,6 +115,13 @@
   cursor: pointer;
 }
 
+.grid_right{
+display: grid;
+grid-column: 2;
+
+
+}
+
 .tit {
   font-family: 'IBM Plex Mono';
   font-style: normal;
@@ -127,12 +134,14 @@
 .header__theme-menu-button_active {
   border: 1px solid var(--title-h2-color);
   pointer-events: none;
+  text-decoration: none;
 }
 
 .header__theme-menu-button:hover {
   text-decoration: underline;
   cursor: pointer;
   border: 1px solid var(--border-corner);
+  text-decoration: none;
 }
 
 .header__theme-menu-button:focus {
@@ -220,7 +229,7 @@
 }
 
 .h_gap {
-  padding-bottom: 20px;
+ max-height: 23px;
 }
 
 .footer {
@@ -489,6 +498,9 @@
 
   .main_p {
     padding-top: 10px;
+    padding-bottom: 3px;
+    line-height: 23.4px;
+    
   }
 
   .last_section {
