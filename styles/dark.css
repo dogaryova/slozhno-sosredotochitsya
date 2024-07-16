@@ -1,5 +1,5 @@
 .page.theme_dark {
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(../images/cover-image-dark.png);
   --border-corner: rgb(255 0 112 / 0.4);
   --subtitle-text-color: #000028;
   --text-color: #F1B2CE;
@@ -8,4 +8,18 @@
   --title-decor-color: #FF0070;
   --accent-color: #FF0070;
   --subtitle-color: #000028;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+    --border-corner: rgb(255 0 112 / 0.4);
+    --subtitle-text-color: #000028;
+    --text-color: #F1B2CE;
+    --title-color: #DB00FF;
+    --main-title-color: #FF0070;
+    --title-decor-color: #FF0070;
+    --accent-color: #FF0070;
+    --subtitle-color: #000028;
+  }
 }

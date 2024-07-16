@@ -1,5 +1,5 @@
 .page.theme_light {
-  background-image: url(/images/cover-image-light.png);
+  background-image: url(../images/cover-image-light.png);
   --border-corner: rgb(50 49 45 / 0.4);
   --subtitle-text-color: #FFF1F7;
   --text-color: #353430;
@@ -11,9 +11,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   .page {
-    background-image: url(/images/cover-image-light.png);
+    background-image: url(../images/cover-image-light.png);
     --border-corner: rgb(50 49 45 / 0.4);
     --subtitle-text-color: #fff1f7;
     --text-color: #353430;
